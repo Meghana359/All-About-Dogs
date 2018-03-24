@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="com.example.admin.allaboutdogs.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/description"
         android:scaleType="centerCrop"
-        android:src="@drawable/cute" />
+        android:src="@drawable/coverpage" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All About Dogs!"
-        android:textColor="#000"
-        android:textSize="48sp" />
+        android:text="@string/title"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/titleSize" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/enterButtonWidth"
+        android:layout_height="@dimen/enterButtonHeight"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/coverpageMargin"
         android:background="@drawable/button"
-        android:onClick="enter" />
+        android:onClick="enter_button" />
 
 </RelativeLayout>

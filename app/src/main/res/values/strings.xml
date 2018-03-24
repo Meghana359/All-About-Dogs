@@ -3,4 +3,16 @@
     <string name="question1">What are dogs most closely related to?</string>
     <string name="question2">What is the world\'s largest breed?</string>
     <string name="question3"> Which breed has black tongue?</string>
+    <string name="option1a">Wolves</string>
+    <string name="option1b">Tigers</string>
+    <string name="option1c">Sheep</string>
+    <string name="option2a">Saint Bernard</string>
+    <string name="option2b">Rottweiler</string>
+    <string name="option2c">Great Dane</string>
+    <string name="option3a">Chow Chow</string>
+    <string name="option3b">Spitz</string>
+    <string name="option3c">Chihuahua</string>
+    <string name="done">Done!</string>
+    <string name="title">All About Dogs!</string>
+    <string name="description">image</string>
 </resources>

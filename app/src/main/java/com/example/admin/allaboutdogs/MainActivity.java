@@ -13,7 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void enter(View view) {
+    /*
+        Intent to transfer the control from first page to second page
+     */
+    public void enter_button(View view) {
         Intent i = new Intent(this, questions.class);
         startActivity(i);
     }
